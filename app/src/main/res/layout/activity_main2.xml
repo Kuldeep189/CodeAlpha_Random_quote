@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity2">
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="236dp"
+        android:layout_height="67dp"
+        android:text="Randomize"
+        android:textColor="@color/black"
+        android:textIsSelectable="true"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.798" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="202dp"
+        android:layout_height="84dp"
+        android:elegantTextHeight="true"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:shadowColor="#000000"
+
+        android:text="Quotes"
+        android:textColor="#660511"
+        android:textColorLink="#FFFEFE"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="387dp"
+        android:layout_height="381dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="#B08BB4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:cardElevation="8dp"
+        android:outlineAmbientShadowColor="@color/black"
+        app:layout_constraintVertical_bias="0.351">
+
+        <TextView
+            android:id="@+id/txtvv"
+            android:layout_width="365dp"
+            android:layout_height="240dp"
+            android:text="To live is the rarest thing in the world. Most people exist, that is all."
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="67dp"
+            android:fontFamily="cursive"
+            android:textColor="#FD000000"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/txtx"
+            android:layout_width="66dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="335dp"
+            android:layout_marginTop="353dp"
+            android:drawableTop="@drawable/icon_share"
+            android:textSize="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.988"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.656" />
+
+        <TextView
+            android:id="@+id/txtvv2"
+            android:layout_width="361dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="304dp"
+            android:text="Oscar Wilde"
+            android:textColor="@color/black"
+            android:textSize="32dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
