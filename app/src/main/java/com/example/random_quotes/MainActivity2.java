@@ -108,7 +108,7 @@ public class MainActivity2 extends AppCompatActivity {
                     tv3.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View view) {
-                            String fullText = randomQuote + "\n" + "https://github.com/Kuldeep189";
+                            String fullText = randomQuote + "\n" + "https://github.com/Kuldeep189/CodeAlpha_Random_quote";
                             Intent ineet = new Intent(Intent.ACTION_SEND);
                             ineet.setType("text/plain");
                             ineet.putExtra(Intent.EXTRA_SUBJECT,"Quote for the day");
